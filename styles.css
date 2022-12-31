@@ -83,3 +83,45 @@ h1, h2 {
     border-radius: 3px;
 }
 
+.projects .container {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.infoBoxes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.infoBoxes img {
+    max-height: 150px;
+    margin-top: 20px;
+}
+
+.infoBoxes .text {
+    text-align: center;
+}
+
+.quote {
+    background: #E5E7EB;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .container {
+    width: 50%;
+    font-size: 24px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote .author {
+    direction: rtl;
+    font-style: normal;
+    font-weight: 700;
+}
