@@ -126,3 +126,37 @@ h1, h2 {
     font-weight: 700;
 }
 
+.signUpContainer {
+    margin: 50px auto;
+    padding: 30px;
+    width: 70%;
+    background: #3882f6;
+    border-radius: 5px;
+}
+
+.signUpBox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.callToAction {
+    color: #E5E7EB;
+}
+.signUpBox button {
+    background: #3882f6;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    color: #E5E7EB;
+    padding: 5px 20px;
+}
+
+.footer {
+    background: #1F2937;
+    color: #E5E7EB;
+}
+
+.footer p {
+    text-align: center;
+    padding: 30px;
+}
