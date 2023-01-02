@@ -10,6 +10,7 @@
 body {
     font-size: 16px;
     line-height: 1.5;
+    overflow: auto;
 }
 
 .heroMain img {
@@ -154,9 +155,8 @@ h1, h2 {
 .footer {
     background: #1F2937;
     color: #E5E7EB;
-}
-
-.footer p {
+    margin: auto 0;
+    width: 100%;
     text-align: center;
     padding: 30px;
 }
